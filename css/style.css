@@ -1,19 +1,14 @@
 body {
 	background-color: LightGray;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px; 
-	color: #838994; 
-	letter-spacing: 0.02em;
 }
 
 div {
-    border: 1px solid Chocolate;
+    
 }
 
 /*best practice fix so that padding doesn't add to size of divs*/
 html {
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
 }
 
 *, *:before, *:after {
@@ -32,32 +27,36 @@ html {
 }
 
 .karmalogo {
-	width: 27px;
+	width: 26px;
 	display: inline-block;
-	padding-top: 12px;
+	padding-top: 15px;
 	margin-left:0;
 
 }
 
-.menu {
+.top-navigation .menu {
 	list-style: none;
   float: right;
   padding-top: 7.5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16.5px; 
+	color: #838994; 
+	letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
 
 }
 
-.menuitem {
+.top-navigation .menu li {
 	display: inline-block;
-	color: #838994;
-	padding-left: 26px;
+	margin-left: 26px;
 }
 
-li:first-child {
+.top-navigation .menu .active {
 	color: #4c5058;
-	font-weight: 600;
+	font-weight: 500;
 }
 
-li:hover {
+.top-navigation .menu li:hover {
 	color: black;
 	cursor: pointer;
 }
