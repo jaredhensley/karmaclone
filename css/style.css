@@ -3,7 +3,7 @@ body {
 }
 
 div {
-    
+   
 }
 
 /*best practice fix so that padding doesn't add to size of divs*/
@@ -19,7 +19,7 @@ html {
 	background-color: #fff;
 }
 
-.top-navigation > .container {
+.container {
 		width: 1141.8px;
 		height: 70px;
 		margin: 0 auto;
@@ -60,4 +60,54 @@ html {
 	color: black;
 	cursor: pointer;
 }
+
+/*background image section*/
+
+
+.introduction {
+    background-image: url('../images/background.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41.8rem;
+}
+
+.introtext {
+	padding-top:170px;
+	color: white;
+	text-align: center;
+	height: 20rem;
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+.introtext h1 {
+	font-size:3.125em;
+	margin-bottom:0;
+}
+
+.button {
+	display: block;
+	height: 53px;
+	width:155px;
+	background-color: #f15a29;
+	border-radius:5px;
+	margin: 0 auto;
+	margin-top:20px;
+}
+
+a.button {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	font-weight:bold;
+} 
+
+a.button:hover {
+	background-color:#D9400E;
+
+}
+
+
 
