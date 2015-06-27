@@ -1,43 +1,64 @@
 body {
-    background-color: LightGray;
+	background-color: LightGray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.02em;
 }
+
 div {
     border: 1px solid Chocolate;
 }
 
-.container {
-	width: 58%;
-	margin: auto;
-
-
+/*best practice fix so that padding doesn't add to size of divs*/
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
-.header {
-	background-color: white;
-	height: 74px;
 
+*, *:before, *:after {
+  box-sizing: inherit;
 }
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .container {
+		width: 1141.8px;
+		height: 70px;
+		margin: 0 auto;
+		padding: 0 15px;
+}
+
 .karmalogo {
-	width: 29px;
+	width: 27px;
 	display: inline-block;
 	padding-top: 12px;
+	margin-left:0;
 
 }
 
 .menu {
 	list-style: none;
   float: right;
-  padding-top: 12px;
+  padding-top: 7.5px;
 
 }
 
 .menuitem {
-	display: inline;
-	padding-right: 0;
+	display: inline-block;
 	color: #838994;
-	padding-left: 29px;
+	padding-left: 26px;
 }
 
 li:first-child {
-	color: black;
-	font-weight: bold;
+	color: #4c5058;
+	font-weight: 600;
 }
+
+li:hover {
+	color: black;
+	cursor: pointer;
+}
+

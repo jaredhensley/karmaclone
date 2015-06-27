@@ -1,0 +1,43 @@
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+.container {
+	width: 60rem;
+	margin: auto;
+
+
+}
+.header {
+	background-color: white;
+	height: 4.375rem;
+
+}
+.karmalogo {
+	width: 29px;
+	display: inline-block;
+	padding-top: 12px;
+
+}
+
+.menu {
+	list-style: none;
+  float: right;
+  padding-top: 12px;
+
+}
+
+.menuitem {
+	display: inline;
+	padding-right: 0;
+	color: #838994;
+	padding-left: 29px;
+}
+
+li:first-child {
+	color: black;
+	font-weight: bold;
+}
