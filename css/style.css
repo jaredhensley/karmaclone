@@ -1,5 +1,5 @@
 body {
-	background-color: LightGray;
+	background-color: white;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
@@ -19,6 +19,8 @@ html {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width:100%;
 }
 
 .top-navigation > .content {
@@ -69,11 +71,11 @@ html {
     background-position: 0 bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 41.8rem;
+    height: 45.8rem;
 }
 
 .introduction > .content {
-	padding-top:170px;
+	padding-top:240px;
 	color: white;
 	text-align: center;
 	height: 20rem;
@@ -99,7 +101,7 @@ html {
 	background-color: #f15a29;
 	border-radius:5px;
 	margin: 0 auto;
-	margin-top:9px;
+	margin-top:75px;
 }
 
 a.button {
@@ -119,25 +121,38 @@ a.button:hover {
 .threeicons > .content {
 	text-align: center;
 	background-color: white;
+	padding-bottom: 100px;
+	
 }
 
 .threeicons > .content > h1 {
 	font-weight: 300;
-	font-size: 2.75em;
+	font-size: 2.5em;
 	padding-top: 87px;
-	padding-bottom:15px;
+	padding-bottom:17px;
 }
 
 .devices {
-	float: left;
-	padding-left:140px;
+	width: 100%;
+
+}
+.threeicons > .content > .devices > li  {
+	list-style-type: none;
+	vertical-align: baseline;
+	width: 33.333333%;
+	float:left;	  
+}
+
+.devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
 
 }
 
-.fillup {
-	float: right;
-	padding-right:140px;
-}
+
+
+
+
 
 
 
