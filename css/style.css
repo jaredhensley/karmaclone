@@ -1,9 +1,11 @@
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 div {
-   
+  
 }
 
 /*best practice fix so that padding doesn't add to size of divs*/
@@ -19,11 +21,17 @@ html {
 	background-color: #fff;
 }
 
-.container {
+.top-navigation > .content {
+		background-color: #fff;
 		width: 1141.8px;
 		height: 70px;
 		margin: 0 auto;
 		padding: 0 15px;
+}
+
+.content {
+	margin: 0 auto;
+	width: 1141.8px;	
 }
 
 .karmalogo {
@@ -38,7 +46,7 @@ html {
 	list-style: none;
   float: right;
   padding-top: 7.5px;
-  font-family: 'Roboto', sans-serif;
+  
   font-size: 16.5px; 
 	color: #838994; 
 	letter-spacing: 0.01em;
@@ -72,18 +80,25 @@ html {
     height: 41.8rem;
 }
 
-.introtext {
+.introduction > .content {
 	padding-top:170px;
 	color: white;
 	text-align: center;
 	height: 20rem;
-	font-family: 'Roboto';
-	font-weight: 300;
 }
 
-.introtext h1 {
-	font-size:3.125em;
+.introduction > .content h1 {
+	font-size:3.2em;
+	font-weight:300;
 	margin-bottom:0;
+	padding-bottom:0;
+}
+
+.introduction > .content h3 {
+	margin-top:11px;
+	font-weight:300;
+	font-size: 1.56em;
+
 }
 
 .button {
@@ -93,7 +108,7 @@ html {
 	background-color: #f15a29;
 	border-radius:5px;
 	margin: 0 auto;
-	margin-top:20px;
+	margin-top:9px;
 }
 
 a.button {
@@ -101,7 +116,8 @@ a.button {
 	color: white;
 	text-align: center;
 	padding-top: 15px;
-	font-weight:bold;
+	font-weight:300 bold;
+	font-size: 1.125em;
 } 
 
 a.button:hover {
